@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Nav bar session */
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #67bdc4 !important;
+}
+.navbar-brand > i {
+  margin: auto 1rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 450;
+  margin: auto 1rem;
+}
+.nav-link:last-child {
+  margin-right: 0.5rem;
+}
+.nav-link:hover {
+  color: #67bdc4 !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+/* navbar session ends here */
+
+/* serach session */
+.card-img-div {
+  max-height: 14rem;
+  overflow: hidden;
+}
+.card-img-div > img {
+  max-height: 100%;
+  text-justify: -400px;
+}
+.form-control {
+  width: 400px;
+  line-height: 2.5rem;
+  border: none;
+  color: #67bdc4 !important;
+}
+.form-control::placeholder {
+  color: #67bdc4;
+}
+.btn-success {
+  background-color: #67bdc4 !important;
+  line-height: 2.5rem;
+  width: 6rem;
+}
+
+/* Media session */
+@media (max-width: 1000px) {
+  .navbar-collapse {
+    position: fixed;
+    top: 3.5rem;
+    right: 0;
+    width: 10rem;
+    padding: 0 1rem;
+    background-color: white;
+    z-index: 99;
+  }
+}
