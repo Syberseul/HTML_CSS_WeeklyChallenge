@@ -127,10 +127,6 @@ ul > li > a:hover {
   background-color: #67bdc4;
   cursor: not-allowed;
 }
-.previous-btn:hover {
-  color: white;
-  background-color: #67bdc4;
-}
 .next-btn {
   background-color: #0cb3c2;
   cursor: pointer;
@@ -151,7 +147,7 @@ ul > li > a:hover {
   margin: auto 0.5rem;
 }
 .index-btn-section > button:first-child,
-button:hover {
+.index-btn-section > button:hover {
   background-color: #0cb3c2;
   font-weight: 600;
   color: rgb(99, 99, 99);
