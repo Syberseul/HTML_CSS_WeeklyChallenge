@@ -58,13 +58,13 @@ ul > li > a:hover {
 
 /* main section */
 main {
-  margin: 2rem;
+  margin: 0 2rem 1rem;
 }
 .col-lg-4 {
   padding: 1.5rem;
 }
-h2 {
-  margin: 4rem auto;
+.col-lg-4 > h2 {
+  margin: 3rem auto;
 }
 .form-control {
   margin: 1rem auto;
