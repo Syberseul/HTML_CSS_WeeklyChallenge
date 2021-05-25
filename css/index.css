@@ -168,6 +168,7 @@ footer > .row {
 }
 .col > p {
   line-height: 2rem;
+  color: rgb(173, 173, 173);
 }
 .footer-btn {
   text-align: right;
@@ -200,6 +201,7 @@ footer > .row {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  color: rgb(173, 173, 173);
 }
 /* footer section ends here */
 
