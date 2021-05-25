@@ -56,6 +56,88 @@ ul > li > a:hover {
 }
 /* Background-img section ends here */
 
+/* main section */
+main {
+  margin: 2rem;
+}
+.col-lg-4 {
+  padding: 1.5rem;
+}
+h2 {
+  margin: 4rem auto;
+}
+.form-control {
+  margin: 1rem auto;
+  line-height: 2.5rem;
+  border: 1px solid rgb(173, 173, 173);
+  color: #0cb3c2 !important;
+}
+.form-control::placeholder {
+  color: #0cb3c2;
+}
+textarea {
+  height: 250px;
+}
+.sendbtn {
+  width: 10rem;
+  height: 4rem;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  background-color: #0cb3c2;
+  cursor: pointer;
+}
+.sendbtn:hover {
+  background-color: #1f7c85;
+}
+.lorem {
+  margin: 3rem auto;
+}
+.contact-detail {
+  display: block;
+  margin: 1rem auto;
+  text-decoration: none;
+  color: rgb(173, 173, 173);
+  cursor: default;
+}
+.contact-detail:hover {
+  color: #1f7c85;
+}
+.contact-detail > i {
+  margin-right: 2rem;
+}
+iframe {
+  width: 100%;
+  min-height: 500px;
+}
+.desc > h2 {
+  margin: 1.5rem auto;
+}
+.desc > h5 {
+  color: rgb(228, 84, 168);
+  margin: 1.5rem auto;
+}
+.desc > p {
+  color: rgb(173, 173, 173);
+}
+.display-btn > button {
+  border: none;
+  background-color: rgb(235, 235, 235);
+  margin: 0.5rem;
+}
+.display-btn > button:hover {
+  background-color: #67bdc4;
+}
+.display-btn > button > i {
+  padding: 0.75rem 0.5rem;
+  color: rgb(51, 51, 51);
+}
+.display-btn > button > i:hover {
+  color: white;
+}
+/* main section ends here */
+
 /* footer section */
 footer {
   background-color: rgb(235, 235, 235);
@@ -101,6 +183,7 @@ footer > .row {
   flex-wrap: wrap;
   color: rgb(173, 173, 173);
 }
+
 /* footer section ends here */
 
 /* Media section */
