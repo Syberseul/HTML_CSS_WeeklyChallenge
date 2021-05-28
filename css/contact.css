@@ -48,11 +48,12 @@ ul > li > a:hover {
 /* Background-img section */
 .card-img-div {
   max-height: 14rem;
-  overflow: hidden;
-}
-.card-img-div > img {
-  max-height: 100%;
-  text-justify: -400px;
+  width: 100%;
+  height: 200px;
+  background-image: url("../img/hero.jpg");
+  background-position: center 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 /* Background-img section ends here */
 
